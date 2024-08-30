@@ -1,0 +1,13 @@
+#root {
+    height: 100svh;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.Navbar {
+    flex-shrink: 0; 
+}
