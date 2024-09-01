@@ -11,6 +11,7 @@ import {
 import { styled } from "@mui/system";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowBack } from "@mui/icons-material";
+import '../input.css';
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
     padding: theme.spacing(4),
@@ -55,7 +56,7 @@ const Login = () => {
         try {
             console.log("Success to Log in");
             localStorage.setItem("loggedIn", true);
-            navigate("/dashboard");
+            // navigate("/dashboard");
         } catch (error) {
             console.error("Error Loging in:", error.message);
             if (error.message.includes("(auth/invalid-email)")) {
@@ -77,7 +78,7 @@ const Login = () => {
     const handleGoogleSignIn = async () => {
         try {
             localStorage.setItem("loggedIn", true);
-            navigate("/dashboard");
+            // navigate("/dashboard");
         } catch (error) {
             console.error("Error Loging in with Google:", error.message);
             setError("Something went wrong with Google Log-in. Try again later.");
@@ -85,7 +86,7 @@ const Login = () => {
     };
 
     return (
-        <div className="h-full">
+        <div className="h-full pt-8">
             <Container component="main" maxWidth="xs" className="relative">
                 <StyledPaper elevation={3}>
                     <div className="flex items-center">

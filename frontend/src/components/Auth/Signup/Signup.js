@@ -11,7 +11,7 @@ import {
 import { styled } from "@mui/system";
 import { Link, useNavigate } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import './input.css';
+import '../input.css';
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
     padding: theme.spacing(4),
@@ -64,7 +64,7 @@ const Signup = () => {
         try {
             console.log("email signup successful")
             localStorage.setItem("loggedIn", true);
-            navigate("/dashboard");
+            // navigate("/dashboard");
         } catch (error) {
             console.error("Error signing up:", error.message);
             if (error.message.includes("(auth/invalid-email)")) {
@@ -83,7 +83,7 @@ const Signup = () => {
         try {
             console.log("google sign up successful")
             localStorage.setItem("loggedIn", true);
-            navigate("/dashboard");
+            // navigate("/dashboard");
         } catch (error) {
             console.error("Error signing up with Google:", error.message);
             setError("Something went wrong with Google Sign-Up, contact the developer");
@@ -105,7 +105,7 @@ const Signup = () => {
                             />
                         </IconButton>
                         <Typography
-                            variant="h5"
+                            variant="h4"
                             gutterBottom
                             sx={{ fontWeight: "bold" }}>
                             Sign Up
