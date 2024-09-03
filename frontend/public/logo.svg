@@ -4,14 +4,16 @@
 <desc>Created with Fabric.js 5.2.4</desc>
 <defs>
 </defs>
-<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
-<g transform="matrix(1 0 0 1 540 540)" id="0af33af2-1e3b-40ce-96f3-c6b579a36b81"  >
+<g transform="matrix(1 0 0 1 540 540)" id="6723e80a-41f2-4bfc-9fdf-fd4275d0c46b"  >
 </g>
-<g transform="matrix(1 0 0 1 540 540)" id="80ca9c02-e98e-48a9-8ae5-5ebbca3442f8"  >
+<g transform="matrix(1 0 0 1 540 540)" id="f8bafd4a-cfe0-436c-91ae-4e9fee0c38e7"  >
 <rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
 </g>
-<g transform="matrix(1 0 0 1 540 540)"  >
-<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-750" y="-750" rx="0" ry="0" width="1500" height="1500" />
+<g transform="matrix(1 0 0 1 95.48 178.87)"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-50" y="-50" rx="0" ry="0" width="100" height="100" />
+</g>
+<g transform="matrix(1 0 0 1 585.48 668.87)"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
 </g>
 <g transform="matrix(30.01 0 0 30.01 540 540)"  >
 <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(29,89,125); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-23.98, -24)" d="M 27.05 12.48 C 26.680837260192128 12.281445482724623 26.269140919784313 12.175090594785939 25.85 12.17 L 22.15 12.17 C 21.730859080215687 12.175090594785939 21.319162739807872 12.281445482724624 20.949999999999996 12.48 L 14.47 6 L 14.47 12.53 C 14.47 14.186854249492377 15.81314575050762 15.529999999999998 17.47 15.53 L 19.62 15.53 L 19.62 17 C 19.61324434987481 18.196685614375625 20.449046279492887 19.23308000710204 21.62 19.48 L 20.34 36.88 L 23.93 42 L 27.66 36.88 L 26.35 19.43 C 27.520953720507116 19.18308000710204 28.356755650125194 18.146685614375624 28.35 16.95 L 28.35 15.53 L 30.5 15.53 C 32.15685424949238 15.53 33.5 14.186854249492379 33.5 12.53 L 33.5 6 Z" stroke-linecap="round" />

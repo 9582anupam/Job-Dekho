@@ -9,7 +9,7 @@ import Header from "./components/Pages/Header/Header";
 function App() {
     return (
         <Router>
-            <div className="App">
+            <div className="App font-poppins">
                 <Header />
                 <Routes>
                     <Route path="/" element={<Home />} />
