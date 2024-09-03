@@ -9,13 +9,13 @@ import img7 from "../../../../utils/icons/img7.png";
 
 const Companies = () => (
     <Marquee>
-      <div className="flex space-x-6 pr-6"> 
+      <div className="flex space-x-6 pr-6 mb-10"> 
         {[img1, img2, img3, img4, img5, img6, img7].map((img, index) => (
           <img
             key={index}
             src={img}
             alt={`Logo ${index + 1}`}
-            className="" 
+            className="h-40 shadow-2xl" 
           />
         ))}
       </div>
