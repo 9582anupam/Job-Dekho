@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Feature1 from "./components/Feature1";
 import Companies from "./components/Companies";
 
-const Home = () => {
+const Home = () => { 
     return (
         <div className=" flex flex-col">
             <Hero />
