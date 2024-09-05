@@ -40,7 +40,7 @@ const DropdownTitle = styled("div")({
 
 const dropdownData = [
     {
-        title: "Jobs",
+        title: "Job",
         items: [
             { text: "Apply", href: "#jobs-apply" },
             { text: "Post", href: "#jobs-post" },
