@@ -1,14 +1,16 @@
 import React from "react";
 import Hero from "./components/Hero";
-import Feature1 from "./components/Feature1";
+import Jobs from "./components/Jobs";
 import Companies from "./components/Companies";
+import Video from "./components/Video";
 
 const Home = () => { 
     return (
         <div className=" flex flex-col">
             <Hero />
             <Companies />
-            <Feature1 />
+            <Video />
+            <Jobs />
         </div>
     );
 };

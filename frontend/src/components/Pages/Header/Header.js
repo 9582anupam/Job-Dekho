@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../../utils/icons/logo.svg";
-import LoginButton from "../../Auth/common/LoginButton";
-import SignupButton from "../../Auth/common/SignupButton";
+import LoginButton from "../../common/LoginButton";
+import SignupButton from "../../common/SignupButton";
 import Nav from "./Nav";
 
 
