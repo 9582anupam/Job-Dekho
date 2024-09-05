@@ -1,8 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css"; // Import the default styles
-import "../../../../Styles/Home/jobs.css";
+import SliderTemplate from "../../../common/SliderTemplate";
 
 import img1 from "../../../../utils/icons/img1.png";
 import img2 from "../../../../utils/icons/img2.png";
@@ -91,42 +87,8 @@ const responsive = {
 
 const Jobs = () => {
     return (
-        <div className="min-h-[70svh] bg-gradient-to-b from-[#f4eae0] to-[#d8e8f8] p-4">
-            <div className="carousel-container mx-auto">
-                <Carousel
-                    responsive={responsive}
-                    infinite={true}
-                    autoPlay={true}
-                    autoPlaySpeed={3000}
-                    transitionDuration={500}
-                    containerClass="carousel-container"
-                    removeArrowOnDeviceType={["tablet", "mobile"]}
-                    arrows>
-                    {dummyJobs.map((job) => (
-                        <div className="w-[270px] bg-slate-300 py-2 px-2 flex flex-col gap-2 rounded-xl mb-4 hover:bg-slate-400 transition-colors duration-300 mx-auto">
-                            <Link to={job.applyLink} key={job.id}>
-                                <img
-                                    alt={`${job.title} logo`}
-                                    src={job.image}
-                                    className="w-full h-auto object-cover rounded-md"
-                                />
-                                <h2 className="font-semibold text-lg">
-                                    {job.title}
-                                </h2>
-                                <p className="text-sm text-gray-600">
-                                    {job.company}
-                                </p>
-                                <h3 className="text-xs text-gray-500">
-                                    {job.timePosted}
-                                </h3>
-                                <div className="bg-blue-500 px-2 py-1 rounded-lg text-white text-center mt-2">
-                                    Apply
-                                </div>
-                            </Link>
-                        </div>
-                    ))}
-                </Carousel>
-            </div>
+        <div className="">
+            <SliderTemplate dummyJobs={dummyJobs} responsive={responsive} />
         </div>
     );
 };
