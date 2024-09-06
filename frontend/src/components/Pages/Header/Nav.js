@@ -32,9 +32,9 @@ const DropdownItem = styled("a")({
 // Additional styled component for title
 const DropdownTitle = styled("div")({
     fontSize: "1.5rem",
-    transition: "color 0.3s ease", // Smooth transition for color change
+    transition: "color 0.3s ease",
     "&:hover": {
-        color: "#007BFF", // Change this to your preferred highlight color
+        color: "#007BFF",
     },
 });
 
@@ -92,7 +92,7 @@ const dropdownData = [
 const Navbar = () => {
     return (
         <nav className="py-2">
-            <div className="container mx-auto flex items-center justify-between">
+            <div className="container mx-auto flex items-center justify-between ">
                 {/* Navigation Links */}
                 <div className="hidden md:flex space-x-4 relative text-black text-2xl rounded-3xl px-4 py-1">
                     {dropdownData.map((dropdown, index) => (
