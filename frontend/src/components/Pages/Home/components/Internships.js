@@ -1,6 +1,6 @@
 import SliderTemplate from "../../../common/SliderTemplate";
 
-import dummyJobs from "../../../../utils/Constants/DummyJobDetails";
+import dummyInternships from "../../../../utils/Constants/DummyInternshipDetails";
 
 const responsive = {
     desktop: {
@@ -20,13 +20,13 @@ const responsive = {
     },
 };
 
-const Jobs = () => {
+const Internships = () => {
     return (
-        <div className="min-h-[70svh] bg-gradient-to-b from-[#f4eae0] to-[#d8e8f8] p-4 mb-20">
-            <SliderTemplate name={"Jobs"} dummyData={dummyJobs} responsive={responsive} />
-            
+        <div className="min-h-[70svh] bg-gradient-to-b from-[#d8e8f8]
+        to-[#f4eae0] p-4">
+            <SliderTemplate name={"Internships"} dummyData={dummyInternships} responsive={responsive} />
         </div>
     );
 };
 
-export default Jobs;
+export default Internships;

@@ -23,7 +23,7 @@ const DropdownItem = styled("a")({
     padding: "8px 16px",
     textDecoration: "none",
     color: "black",
-    fontSize: "1.3rem",
+    fontSize: "1rem",
     "&:hover": {
         backgroundColor: "#f0f0f0",
     },
@@ -31,7 +31,7 @@ const DropdownItem = styled("a")({
 
 // Additional styled component for title
 const DropdownTitle = styled("div")({
-    fontSize: "1.5rem",
+    fontSize: "1.2rem",
     transition: "color 0.3s ease",
     "&:hover": {
         color: "#007BFF",
@@ -94,7 +94,7 @@ const Navbar = () => {
         <nav className="py-2">
             <div className="container mx-auto flex items-center justify-between ">
                 {/* Navigation Links */}
-                <div className="hidden md:flex space-x-4 relative text-black text-xl rounded-3xl px-4 py-1">
+                <div className="hidden md:flex space-x-6 relative text-black text-xl rounded-3xl px-4 py-1">
                     {dropdownData.map((dropdown, index) => (
                         <div key={index} className="relative group">
                             <DropdownTitle className="cursor-pointer group-hover:text-blue-600">

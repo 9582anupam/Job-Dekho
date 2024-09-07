@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../../utils/icons/logo.svg";
 import LoginButton from "../../common/LoginButton";
 import SignupButton from "../../common/SignupButton";
-import Nav from "./Nav";
+import Nav from "./components/Nav";
 
 
 const Header = () => {

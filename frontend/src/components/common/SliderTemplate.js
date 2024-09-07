@@ -7,22 +7,23 @@ import IconButton from "@mui/material/IconButton";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 
 const SliderTemplate = (props) => {
-    const dummyJobs = props.dummyJobs;
+    const name = props.name;
+    const dummyData = props.dummyData;
     const responsive = props.responsive;
 
-    const [clickedJobs, setClickedJobs] = useState({});
+    const [clickedData, setClickedData] = useState({});
 
-    const handleClick = (e, jobId) => {
+    const handleClick = (e, DataId) => {
         e.preventDefault();
-        setClickedJobs((prev) => ({
+        setClickedData((prev) => ({
             ...prev,
-            [jobId]: !prev[jobId],
+            [DataId]: !prev[DataId],
         }));
     };
 
     return (
-        <div className="min-h-[70svh] bg-gradient-to-b from-[#f4eae0] to-[#d8e8f8] p-4">
-    <div className="font-bold text-2xl text-center mb-4">Discover Your Dream Job</div>
+        <div>
+    <div className="font-bold text-2xl text-center mb-4">Discover Your Dream {name}</div>
     <div className="carousel-container mx-auto">
         <Carousel
             responsive={responsive}
@@ -33,34 +34,34 @@ const SliderTemplate = (props) => {
             containerClass="carousel-container"
             removeArrowOnDeviceType={["tablet", "mobile"]}
             arrows>
-            {dummyJobs.map((job) => (
+            {dummyData.map((Data) => (
                 <div
-                    key={job.id}
-                    className="w-[270px] shadow-2xl py-2 px-2 flex flex-col rounded-xl mb-4 transition-transform duration-300 hover:scale-105 mx-auto">
+                    key={Data.id}
+                    className="w-[270px] shadow-2xl py-2 px-2 flex flex-col rounded-xl mb-4 transition-transform duration-300 hover:scale-[1.1]  mx-auto">
                     <Link
-                        to={job.applyLink}
+                        to={Data.applyLink}
                         className="gap-2 flex flex-col">
                         <img
-                            alt={`${job.title} logo`}
-                            src={job.image}
+                            alt={`${Data.title} logo`}
+                            src={Data.image}
                             className="w-full h-auto object-cover rounded-md"
                         />
                         <h2 className="font-semibold text-lg text-blue-600">
-                            {job.title}
+                            {Data.title}
                         </h2>
                         <p className="text-sm text-gray-600">
-                            {job.company}
+                            {Data.company}
                         </p>
                         <div className="flex justify-between items-center">
                             <h3 className="text-xs text-gray-500">
-                                {job.timePosted}
+                                {Data.timePosted}
                             </h3>
                             <div className="rounded-full">
                                 <IconButton
                                     className="relative mt-2"
                                     size="small"
-                                    onClick={(e) => handleClick(e, job.id)}>
-                                    {clickedJobs[job.id] ? (
+                                    onClick={(e) => handleClick(e, Data.id)}>
+                                    {clickedData[Data.id] ? (
                                         <FavoriteIcon style={{ color: "red" }} />
                                     ) : (
                                         <FavoriteIcon style={{ color: "pink" }} />
