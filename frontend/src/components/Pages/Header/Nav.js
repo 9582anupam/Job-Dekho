@@ -94,7 +94,7 @@ const Navbar = () => {
         <nav className="py-2">
             <div className="container mx-auto flex items-center justify-between ">
                 {/* Navigation Links */}
-                <div className="hidden md:flex space-x-4 relative text-black text-2xl rounded-3xl px-4 py-1">
+                <div className="hidden md:flex space-x-4 relative text-black text-xl rounded-3xl px-4 py-1">
                     {dropdownData.map((dropdown, index) => (
                         <div key={index} className="relative group">
                             <DropdownTitle className="cursor-pointer group-hover:text-blue-600">

@@ -3,7 +3,7 @@ import { Button, Typography } from "@mui/material";
 
 const Video = () => {
     return (
-        <div className="min-h-[60vh] my-10 flex flex-col lg:flex-row justify-between items-center mx-6 lg:mx-16 px-6 lg:px-16 bg-gradient-to-r from-[#f0f4f8] to-[#d9e6f2] rounded-lg shadow-md py-10">
+        <div className="min-h-[60vh] flex flex-col lg:flex-row justify-between items-center mx-6 lg:mx-16 px-6 lg:px-16 bg-gradient-to-r from-[#f0f4f8] to-[#d9e6f2] rounded-lg shadow-md py-10 mb-20">
             <div className="lg:max-w-[50%] w-full text-center lg:text-left mb-8 lg:mb-0 flex flex-col gap-8">
                 <Typography
                     variant="h2"
