@@ -7,6 +7,7 @@ import DisplaySettingsIcon from "@mui/icons-material/DisplaySettings";
 import ArticleOutlinedIcon from "@mui/icons-material/ArticleOutlined";
 import CodeIcon from "@mui/icons-material/Code";
 import PeopleIcon from "@mui/icons-material/People";
+import "../../../../Styles/Home/resizeCards.css";
 
 const ResizeCards = () => {
     const [hovered, setHovered] = useState("ONE"); // Default hover on the first div

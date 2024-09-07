@@ -1,4 +1,4 @@
 .resizecard-img-container:hover .resizecard-img {
     filter: blur(2px);
-    -webkit-filter: blur(2px);
+    /* -webkit-filter: blur(2px); */
 }
