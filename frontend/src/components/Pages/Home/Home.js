@@ -5,7 +5,7 @@ import Companies from "./components/Companies";
 import Video from "./components/Video";
 import ResizeCards from "./components/ResizeCards";
 import Internships from "./components/Internships";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 const Home = () => { 
     return (
@@ -16,7 +16,7 @@ const Home = () => {
             <Jobs />
             <Internships/>
             <ResizeCards />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 };
